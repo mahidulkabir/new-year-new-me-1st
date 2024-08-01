@@ -39,5 +39,72 @@ header{
     border-radius: 5px;
     font-size: 20px;
     color: #ffffff;
+
+}
+/* main section styles */
+.failure-container{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    margin-left: 200px;
+    margin-right: 300px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    justify-content: space-around;
+}
+.failure-photo{
+    width: 570px;
+    height: 723px;
+}
+.failure-list{
+    margin-top: 16px;
+    list-style: none;
+    padding-left: 5px;
+    font-size: 16px;
+    color: #444343;
+    text-align: left;
+}
+main li::before{
+    content: "\2713";
+    color: green;
+    font-weight: bold;
+    margin-right: 20px;
     
+}
+.failure-list-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #444343;
+    margin-bottom: 24px;
+}
+
+/* Plans section styles */
+.my-plans{
+    margin: 130px 230px;
+}
+.plans-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 45px;
+
+}
+.plans-list-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.plans-list-title{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 24px 0 16px 0;
+    color: #151414;
+}
+.plans-list-description{
+    color: #737272;
+    font-weight:500;
+    font-size: 25px;
+}
+.plans-item-logo{
+   padding-left: 35px;
 }
